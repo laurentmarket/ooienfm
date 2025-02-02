@@ -1,0 +1,90 @@
+.globo-out-of-stock {
+    display: none !important;
+}
+
+li > a.active{
+  text-decoration: underline !important;
+}
+/* Container principal */
+.product__block.product__block-callouts-mini {
+  display: inline-block !important;
+  width: auto !important;
+  margin-bottom:1%;
+}
+
+.product__callouts-mini-items {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  flex-wrap: nowrap !important;
+
+}
+
+/* Chaque item */
+.product__callouts-mini-item {
+  display: flex !important;
+  align-items: center !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* Icône */
+.product__callouts-mini-item-icon {
+  flex-shrink: 0 !important;
+  margin-right: 8px !important;
+}
+
+/* Texte */
+.product__callouts-mini-item-text {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+@media (min-width: 960px) {
+    .product[data-gallery-size=small] .product__primary {
+        grid-template-columns: 46fr 50fr;
+    }
+   /*.product__media-item {
+    margin: 0 auto;padding:0 15%;*/
+  /* Personnalisation CSS pour la section produit */
+.shopify-section.main-product-section ~ section {
+  width: 80% !important;
+  margin: 5% auto !important;
+}
+
+#shopify-section-template--24107716116823__multi_column > div > div > div.multi-column__introduction.section-introduction.animation--section-introduction > h2{
+  margin-bottom:50px!important;
+}
+
+  .product__price,
+.product__title {
+  font-size: 25px !important;
+  font-weight:normal!important;
+  font-family:AloeveraDisplay-Light;
+}
+.data-price {
+  font-size: 18px !important;
+}
+
+.product__option {
+  line-height: 20px !important;
+}
+.main-product-section {
+  width: 90%;
+  margin: 0 auto;
+}
+  #shopify-section-template--24174601732439__multi_column_XnYB4J,#shopify-section-template--24174601732439__multi_column_1 {
+  margin: 0 auto;
+  width: 90%;
+   margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+  
+  }
+}
+
+.globo-color-swatch--watermarks{display:none!important;)
